@@ -90,7 +90,7 @@ BOARD_NFC_HAL_SUFFIX := universal5410
 
 # Radio
 BOARD_PROVIDES_LIBRIL := true
-BOARD_MODEM_TYPE := ss222
+BOARD_MODEM_TYPE := xmm6360 #jaltektt using ss222 modem. but source not have.
 
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI          := true
