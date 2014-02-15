@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/i9500
+LOCAL_PATH := device/samsung/e300k
 
 BOARD_VENDOR := samsung
 
@@ -22,7 +22,7 @@ BOARD_VENDOR := samsung
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ja3g,i9500,GT-I9500,SHV-E300K,jaltektt
+TARGET_OTA_ASSERT_DEVICE := SHV-E300K,jaltektt
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := universal5410
@@ -131,4 +131,4 @@ BOARD_BATTERY_DEVICE_NAME := battery
 #TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
 
 # inherit from the proprietary version
--include vendor/samsung/i9500/BoardConfigVendor.mk
+-include vendor/samsung/e300k/BoardConfigVendor.mk
